@@ -5,7 +5,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="css\bootstrap.css">
         <link rel="stylesheet" type="text/css" href="Custom.css">
-        <link href="https://fonts.googleapis.com/css?family=Russo+One|Spicy+Rice" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Russo+One|Spicy+Rice|Muli" rel="stylesheet">
     </head>
 
         <header>
@@ -26,20 +26,19 @@
 
                 <h3 >
                     <a href="https://sketchfab.com/models/5e004e847537417ea248cf444e5bee57" class="CustomHyperlink">
-                        <img src="imgs/Tag_Sketchfab.png" class = "CustomMenu" alt="Link to artstation"> 
+                        <img src="imgs/Tag_Sketchfab.png" class = "CustomMenu" alt="Link to Sketchfab"> 
                     </a> 
                 </h3>
 
                 <h3 >
                     <a href="https://twitter.com/Wafflezerker" class="CustomHyperlink">
-                        <img src="imgs/Tag_Twitter.png" class = "CustomMenu" alt="Link to artstation"> 
+                        <img src="imgs/Tag_Twitter.png" class = "CustomMenu" alt="Link to Twitter"> 
                     </a> 
                 </h3>
 
                 <h3 >
-                    <a href="https://www.artstation.com/wafflezerker" class="CustomHyperlink">
-                        <img src="imgs/Tag_Resume.png" class = "CustomMenu" alt="Link to artstation"> 
-                        
+                    <a href="Resume.pdf" target="_blank" download class="CustomHyperlink">
+                        <img src="imgs/Tag_Resume.png" class = "CustomMenu" alt="Link to Resume"> 
                     </a> 
                 </h3>
 
@@ -50,26 +49,83 @@
         <body>
             <div class = "container-fluid">
                 <div class="row">
-                        <div class="col-md">
-                                <h1>TEXT</h1>
+                        <div class="col-5">
+                                <h1 id = "ParagraphHeader">Current Project – Verge</h1>
                                 <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper nibh dui, pretium tempus libero vehicula ut. Sed fermentum lobortis tortor, et bibendum sem. Integer elementum libero ut sodales aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras dui arcu, cursus ut porta et, mollis ac nulla. Suspendisse aliquam magna at purus molestie dictum. Proin quis tincidunt quam. Nullam pellentesque libero eu augue ultricies pretium. Donec rhoncus purus a justo maximus dictum. Sed et augue vel tellus faucibus malesuada at quis elit. Ut convallis sed sapien nec suscipit. Nullam convallis risus enim, eleifend facilisis turpis sollicitudin eu.
+                                    Verge was spawned with two co-relating goals of a software engineer (David Rach) and an artist (myself) of simulating accurate vehicle physics and accurately modelling a vehicle. The choice of vehicle was the 1986 Mazda RX-7 FC. 
                                 </p>
+
+                                <h2 id = "ParagraphSubheader">RX-7 MKI</h2>
+                                <p>
+                                    The first pass of the RX-7 was stock standard with a black body and alloy two piece wheels, however the MKI was fairly rough around the edges. Problems included were:
+                                </p>
+
+                                <ul class = "CustomList">
+                                        <li>Tyre walls being too sharp of an angle</li>
+                                        <li>Shoddy attempt at tyre tread </li>
+                                        <li>Ugly geometry of the two piece wheels that bounced light horribly</li>
+                                        <li>Generally holding more polys than it needed</li>
+                                </ul>
+
+                                <h2 id = "ParagraphSubheader">RX-7 MKII</h2>
+                                <p>
+                                    The second pass of the RX-7 cleaned up the geometry. This included:
+                                </p>
+
+                                <ul class = "CustomList">
+                                        <li>Fully replaced wheels and tyres that sported a corrected attempt at tyre tread</li>
+                                        <li>A lot of poly culling throughout the vehicle</li>
+                                        <li>A grunge brass respray</li>
+                                </ul>
+
+                                <p>
+                                        The design of the wheels were inspired by Batou’s Lotus Esprit in the live action Ghost In The Shell movie, while the inspiration behind the louvered tail lights arose from the hero vehicle of Cyberpunk 2077s E3 trailer.
+                                </p>
+
+                                <h2 id = "ParagraphSubheader">RX-7 MKIII</h2>
+                                <p>
+                                    The final pass of the RX-7 saw a massive change:
+                                </p>
+
+                                <ul class = "CustomList">
+                                    <li>Even more polys were stripped off the body </li>
+                                    <li>An aero fin cut into the roof </li>
+                                    <li>Mazda badges</li>
+                                    <li>JDM inspired number plate</li>
+                                    <li>A new exhaust system</li>
+                                    <li>A ducktail spoiler</li>
+                                    <li>Bolt on fenders</li>
+                                    <li>A front mounted oil cooler</li>
+                                    <li>Rear quarter air intakes inspired by Toyota’s MR2</li>
+                                    <li>An interior silhouette</li>
+                                    <li>A more optimised UV layout</li>
+                                    <li>New textures</li>
+                                    <li>Two new sets of wheels (front and rear) with a fresh set of extra wide tyres on both</li>
+                                </ul>
+
+                                <h2 id = "ParagraphSubheader">Final Word</h2>
+                                <p>
+                                        Working on this project has taught me a lot about different styles of modelling. In addition to this, I also gained more of an appreciation of the engineering behind vehicles. If I were to do this again, I would like to try yet another style of modelling, in particular using a method that involves using NURBS to achieve the intricate curves of the car body. 
+                                </p>
+                                <p>
+                                        Another lesson of note is how important it is to use real world measurements when collaborating with a software engineer (especially when dealing with physics). This was good for me as it introduced to me the dynamic of working with people in different fields.   
+                                </p>
+
+                                <h1 id = "ParagraphHeader">Future Work</h1>
+                                <p>
+                                        The goal of this project is to create a chassis that can fit a collection of parts inspired by Japanese cars from 1990 to the early 2000’s with a selection of American and European classics thrown in. Due to the variation in body measurements and wheelbase, the parts created will not be accurate to the real world reference; this will create an interesting challenge with an equally interesting outcome. The goal is to be able to swap out any parts (e.g. the front bumper or the trunk lid and rear window) and create fully unique and awesome builds (e.g. a Nissan 180sx rear with a Pontiac Firebird front).
+                                </p>
+                                <img src="imgs/ModularChassis.png" class = "img-fluid BeautyShot rounded border border-dark" alt="Modular Chasis"> 
+
                             </div>
 
-                    <div class="col-md">
-                        <h1>TEXT</h1>
-                        <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper nibh dui, pretium tempus libero vehicula ut. Sed fermentum lobortis tortor, et bibendum sem. Integer elementum libero ut sodales aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras dui arcu, cursus ut porta et, mollis ac nulla. Suspendisse aliquam magna at purus molestie dictum. Proin quis tincidunt quam. Nullam pellentesque libero eu augue ultricies pretium. Donec rhoncus purus a justo maximus dictum. Sed et augue vel tellus faucibus malesuada at quis elit. Ut convallis sed sapien nec suscipit. Nullam convallis risus enim, eleifend facilisis turpis sollicitudin eu.
-                        </p>
+                    <div class="col-7">
+                            <img src="imgs/RX7_BeautyShots_05.png" class = "img-fluid BeautyShot rounded border border-dark" alt="Beauty Shot 5"> 
+                            <img src="imgs/RX7_BeautyShots_03.png" class = "img-fluid BeautyShot rounded border border-dark" alt="Beauty Shot 03"> 
+                            <img src="imgs/RX7_BeautyShots_04.png" class = "img-fluid BeautyShot rounded border border-dark" alt="Beauty Shot 04"> 
+
                     </div>
 
-                    <div class="col-md">
-                            <h1>TEXT</h1>
-                            <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper nibh dui, pretium tempus libero vehicula ut. Sed fermentum lobortis tortor, et bibendum sem. Integer elementum libero ut sodales aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras dui arcu, cursus ut porta et, mollis ac nulla. Suspendisse aliquam magna at purus molestie dictum. Proin quis tincidunt quam. Nullam pellentesque libero eu augue ultricies pretium. Donec rhoncus purus a justo maximus dictum. Sed et augue vel tellus faucibus malesuada at quis elit. Ut convallis sed sapien nec suscipit. Nullam convallis risus enim, eleifend facilisis turpis sollicitudin eu.
-                            </p>
-                        </div>
                 </div>
             </div>
         </body>

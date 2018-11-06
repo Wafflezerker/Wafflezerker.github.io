@@ -5,6 +5,9 @@ body{
 
 p{
     color: whitesmoke;
+    text-justify: inter-word;
+    text-align: justify;
+    font-family: 'Muli', sans-serif;
 }
 
 h1{
@@ -21,6 +24,19 @@ h2{
     font-size: 20px;
 }
 
+#ParagraphHeader{
+    font-size: 50px;
+    color: #b32424;
+}
+
+#ParagraphSubheader{
+    color: #b32424;
+}
+
+ul.CustomList{
+    color: whitesmoke;
+}
+
 h3{
     position: relative;
     color: whitesmoke;
@@ -35,7 +51,7 @@ div.Custom-Title{
 
 div.Custom-Link{
     position:absolute;
-    top: 7%;
+    top: 4%;
     left: -54%;
 }
 
@@ -58,8 +74,8 @@ div.CustomImageSpacer{
     z-index: -100;
     width:100%;
     border-bottom-style: solid;
-    border-bottom-color: white;
-    border-bottom-width: 5px;
+    border-bottom-color: #111111;
+    border-bottom-width: 3px;
     margin-bottom: 20px;
     
 }
@@ -91,3 +107,6 @@ img.CustomMenu:hover{
     height: 15%;
 }
 
+img.BeautyShot{
+    margin-bottom: 10px;
+}

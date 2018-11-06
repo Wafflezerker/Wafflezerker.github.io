@@ -6161,7 +6161,7 @@ button.bg-dark:focus {
 }
 
 .border {
-  border: 1px solid #dee2e6 !important;
+  border: 2px solid #dee2e6 !important;
 }
 
 .border-top {
@@ -6229,7 +6229,7 @@ button.bg-dark:focus {
 }
 
 .border-dark {
-  border-color: #343a40 !important;
+  border-color: #111111 !important;
 }
 
 .border-white {
