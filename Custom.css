@@ -24,12 +24,12 @@ h2{
     font-size: 20px;
 }
 
-#ParagraphHeader{
+h1.ParagraphHeader{
     font-size: 50px;
     color: #b32424;
 }
 
-#ParagraphSubheader{
+h2.ParagraphSubheader{
     color: #b32424;
 }
 
